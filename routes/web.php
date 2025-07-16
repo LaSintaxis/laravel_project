@@ -8,8 +8,10 @@ use App\Http\Controllers\ProductoController;
 use App\Http\Controllers\UserController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('login');
 });
+
+//Dashboard protegido
 
 Route::get('/dashboard', function () {
     return view('dashboard');
