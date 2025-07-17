@@ -14,4 +14,5 @@
             </div>
         </div>
     </div>
+    <p>Bienvenido al sistema</p>
 </x-app-layout>
